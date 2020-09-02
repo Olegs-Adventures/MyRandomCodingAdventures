@@ -63,7 +63,5 @@ btnoperatorequal = Button(calculator, padx=14, pady=6, bd=8, fg="black", font=("
 btnoperatorfraction = Button(calculator, padx=14, pady=10, bd=8, fg="black", font=("arial", 20, "bold"), text="/",
                              command=lambda: btnClick("/")).grid(row=4, column=3)
 # ======================================================#
-btnoperatorpower = Button(calculator, padx=14, pady=10, bd=8, fg="black", font=("arial", 20, "bold"), text="^",
-                          command=lambda: btnClick("^")).grid(row=5, column=0)
 
 calculator.mainloop()
